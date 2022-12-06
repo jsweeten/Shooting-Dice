@@ -10,7 +10,9 @@ namespace ShootingDice
         {
             "I'm not sure what I'm supposed to say.",
             "You mother was a hamster",
-            "Your father smells of elderberry"
+            "Your father smells of elderberry",
+            "I wish you were never born.",
+            "I have secretly hated you for years"
         };
 
         public string insult = _taunts[new Random().Next(_taunts.Count)];
